@@ -1,0 +1,18 @@
+.container {
+    margin-bottom: 20px;
+}
+.card {
+    margin: 0 4px 5px 0;
+    width: 210px;
+}
+.card img {
+    width: 210px;
+    height:230px;
+    overflow: hidden;
+}
+.card-body {
+    padding: 5px;
+}
+p.year {
+    margin: 0;
+}
