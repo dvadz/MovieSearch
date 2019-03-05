@@ -223,6 +223,10 @@ function clearResults() {
 function createPageButtons(){
     var numberOfPages  = movieSearch.totalNumberOfPages;
     if(debug){console.log("function: createPageButtons ", numberOfPages)}
+
+    //empty out the buttons
+    $(".div-pages").empty();
+
     for( var i = 1; i < numberOfPages+1; i++) {
         var newButton = $("<button></button>").text(i).attr("value", i).addClass("pages");
         $(".div-pages").append(newButton);
